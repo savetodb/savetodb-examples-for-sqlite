@@ -1,8 +1,8 @@
 -- =============================================
 -- Application: Sample 02 - Advanced SaveToDB Features
--- Version 10.6, December 13, 2022
+-- Version 10.8, January 9, 2023
 --
--- Copyright 2017-2022 Gartle LLC
+-- Copyright 2017-2023 Gartle LLC
 --
 -- License: MIT
 --
@@ -145,27 +145,27 @@ INSERT INTO item_companies (item_id, company_id) VALUES (4, 15);
 INSERT INTO item_companies (item_id, company_id) VALUES (4, 16);
 INSERT INTO item_companies (item_id, company_id) VALUES (4, 17);
 
-INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2022-01-10', 1, 1, 1, 200000, NULL, 1);
-INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2022-01-10', 1, 2, 8, NULL, 50000, 1);
-INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2022-01-31', 1, 3, NULL, NULL, 85000, 1);
-INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2022-01-31', 1, 4, 16, NULL, 15000, 1);
-INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2022-01-31', 1, 4, 17, NULL, 15000, 1);
-INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2022-02-10', 1, 1, 1, 300000, NULL, 1);
-INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2022-02-10', 1, 1, 2, 100000, NULL, 1);
-INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2022-02-10', 1, 2, 9, NULL, 50000, 1);
-INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2022-02-10', 1, 2, 8, NULL, 100000, 1);
-INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2022-02-28', 1, 3, NULL, NULL, 85000, 1);
-INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2022-02-28', 1, 4, 16, NULL, 15000, 1);
-INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2022-02-28', 1, 4, 17, NULL, 15000, 1);
-INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2022-03-10', 1, 1, 1, 300000, NULL, 0);
-INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2022-03-10', 1, 1, 2, 200000, NULL, 0);
-INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2022-03-10', 1, 1, 3, 100000, NULL, 0);
-INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2022-03-15', 1, 4, 15, NULL, 100000, NULL);
-INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2022-03-31', 1, 3, NULL, NULL, 170000, NULL);
-INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2022-03-31', 1, 4, 16, NULL, 30000, NULL);
-INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2022-03-31', 1, 4, 17, NULL, 30000, NULL);
-INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2022-03-31', 1, 2, 9, NULL, 50000, NULL);
-INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2022-03-31', 1, 2, 8, NULL, 100000, NULL);
+INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2023-01-10', 1, 1, 1, 200000, NULL, 1);
+INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2023-01-10', 1, 2, 8, NULL, 50000, 1);
+INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2023-01-31', 1, 3, NULL, NULL, 85000, 1);
+INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2023-01-31', 1, 4, 16, NULL, 15000, 1);
+INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2023-01-31', 1, 4, 17, NULL, 15000, 1);
+INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2023-02-10', 1, 1, 1, 300000, NULL, 1);
+INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2023-02-10', 1, 1, 2, 100000, NULL, 1);
+INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2023-02-10', 1, 2, 9, NULL, 50000, 1);
+INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2023-02-10', 1, 2, 8, NULL, 100000, 1);
+INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2023-02-28', 1, 3, NULL, NULL, 85000, 1);
+INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2023-02-28', 1, 4, 16, NULL, 15000, 1);
+INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2023-02-28', 1, 4, 17, NULL, 15000, 1);
+INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2023-03-10', 1, 1, 1, 300000, NULL, 0);
+INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2023-03-10', 1, 1, 2, 200000, NULL, 0);
+INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2023-03-10', 1, 1, 3, 100000, NULL, 0);
+INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2023-03-15', 1, 4, 15, NULL, 100000, NULL);
+INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2023-03-31', 1, 3, NULL, NULL, 170000, NULL);
+INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2023-03-31', 1, 4, 16, NULL, 30000, NULL);
+INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2023-03-31', 1, 4, 17, NULL, 30000, NULL);
+INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2023-03-31', 1, 2, 9, NULL, 50000, NULL);
+INSERT INTO cashbook (date, account_id, item_id, company_id, debit, credit, checked) VALUES ('2023-03-31', 1, 2, 8, NULL, 100000, NULL);
 
 INSERT INTO objects (TABLE_SCHEMA, TABLE_NAME, TABLE_TYPE, TABLE_CODE, INSERT_OBJECT, UPDATE_OBJECT, DELETE_OBJECT) VALUES (NULL, 'usp_cash_by_months', 'CODE', 'SELECT
     row_number() OVER (ORDER BY p.section, p.item_id, p.company_id) AS sort_order
@@ -1396,43 +1396,43 @@ view_cashbook=view_cashbook,(Default),False,$B$3,,{"Parameters":{"account_id":nu
 view_cashbook2=view_cashbook2,(Default),False,$B$3,,{"Parameters":{"account_id":null,"item_id":null,"company_id":null},"ListObjectName":"view_cashbook2"}
 view_cashbook3=view_cashbook3,(Default),False,$B$3,,{"Parameters":{"account_id":null,"item_id":null,"company_id":null},"ListObjectName":"view_cashbook3"}
 code_cashbook=code_cashbook,(Default),False,$B$3,,{"Parameters":{"account_id":1,"item_id":null,"company_id":null},"ListObjectName":"code_cashbook"}
-cash_by_months=usp_cash_by_months,(Default),False,$B$3,,{"Parameters":{"year":2022},"ListObjectName":"cash_by_months"}
+cash_by_months=usp_cash_by_months,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months"}
 objects=objects,(Default),False,$B$3,,{"Parameters":{"TABLE_NAME":null,"TABLE_TYPE":null},"ListObjectName":"objects"}
 handlers=handlers,(Default),False,$B$3,,{"Parameters":{"EVENT_NAME":null,"HANDLER_TYPE":null},"ListObjectName":"handlers"}
 translations=translations,(Default),False,$B$3,,{"Parameters":{"LANGUAGE_NAME":"en"},"ListObjectName":"translations"}
 workbooks=workbooks,(Default),False,$B$3,,{"Parameters":{},"ListObjectName":"workbooks"}', NULL);
 INSERT INTO workbooks (NAME, TEMPLATE, DEFINITION, TABLE_SCHEMA) VALUES ('Sample 02 - Advanced Features - User3 (Translation).xlsx','https://www.savetodb.com/downloads/v10/sample02-user3-en.xlsx','code_cashbook=code_cashbook,(Default),False,$B$3,,{"Parameters":{"account_id":1,"item_id":null,"company_id":null,"start_date":null,"end_date":null,"checked":null},"ListObjectName":"code_cashbook","UseTranslatedName":true,"WorkbookLanguage":"en"}
-cash_by_months=usp_cash_by_months,(Default),False,$B$3,,{"Parameters":{"year":2022},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"en"}
+cash_by_months=usp_cash_by_months,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"en"}
 translations=translations,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"s02","LANGUAGE_NAME":"en"},"ListObjectName":"translations","UseTranslatedName":true,"WorkbookLanguage":"en"}', NULL);
 INSERT INTO workbooks (NAME, TEMPLATE, DEFINITION, TABLE_SCHEMA) VALUES ('Sample 02 - Advanced Features - User3 (Translation, Chinese Simplified).xlsx','https://www.savetodb.com/downloads/v10/sample02-user3-zh-hans.xlsx','code_cashbook=code_cashbook,(Default),False,$B$3,,{"Parameters":{"account_id":1,"item_id":null,"company_id":null,"start_date":null,"end_date":null,"checked":null},"ListObjectName":"code_cashbook","UseTranslatedName":true,"WorkbookLanguage":"zh-hans"}
-cash_by_months=usp_cash_by_months,(Default),False,$B$3,,{"Parameters":{"year":2022},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"zh-hans"}
+cash_by_months=usp_cash_by_months,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"zh-hans"}
 translations=translations,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"s02","LANGUAGE_NAME":"zh-hans"},"ListObjectName":"translations","UseTranslatedName":true,"WorkbookLanguage":"zh-hans"}', NULL);
 INSERT INTO workbooks (NAME, TEMPLATE, DEFINITION, TABLE_SCHEMA) VALUES ('Sample 02 - Advanced Features - User3 (Translation, Chinese Traditional).xlsx','https://www.savetodb.com/downloads/v10/sample02-user3-zh-hant.xlsx','code_cashbook=code_cashbook,(Default),False,$B$3,,{"Parameters":{"account_id":1,"item_id":null,"company_id":null,"start_date":null,"end_date":null,"checked":null},"ListObjectName":"code_cashbook","UseTranslatedName":true,"WorkbookLanguage":"zh-hant"}
-cash_by_months=usp_cash_by_months,(Default),False,$B$3,,{"Parameters":{"year":2022},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"zh-hant"}
+cash_by_months=usp_cash_by_months,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"zh-hant"}
 translations=translations,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"s02","LANGUAGE_NAME":"zh-hant"},"ListObjectName":"translations","UseTranslatedName":true,"WorkbookLanguage":"zh-hant"}', NULL);
 INSERT INTO workbooks (NAME, TEMPLATE, DEFINITION, TABLE_SCHEMA) VALUES ('Sample 02 - Advanced Features - User3 (Translation, French).xlsx','https://www.savetodb.com/downloads/v10/sample02-user3-fr.xlsx','code_cashbook=code_cashbook,(Default),False,$B$3,,{"Parameters":{"account_id":1,"item_id":null,"company_id":null,"start_date":null,"end_date":null,"checked":null},"ListObjectName":"code_cashbook","UseTranslatedName":true,"WorkbookLanguage":"fr"}
-cash_by_months=usp_cash_by_months,(Default),False,$B$3,,{"Parameters":{"year":2022},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"fr"}
+cash_by_months=usp_cash_by_months,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"fr"}
 translations=translations,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"s02","LANGUAGE_NAME":"fr"},"ListObjectName":"translations","UseTranslatedName":true,"WorkbookLanguage":"fr"}', NULL);
 INSERT INTO workbooks (NAME, TEMPLATE, DEFINITION, TABLE_SCHEMA) VALUES ('Sample 02 - Advanced Features - User3 (Translation, German).xlsx','https://www.savetodb.com/downloads/v10/sample02-user3-de.xlsx','code_cashbook=code_cashbook,(Default),False,$B$3,,{"Parameters":{"account_id":1,"item_id":null,"company_id":null,"start_date":null,"end_date":null,"checked":null},"ListObjectName":"code_cashbook","UseTranslatedName":true,"WorkbookLanguage":"de"}
-cash_by_months=usp_cash_by_months,(Default),False,$B$3,,{"Parameters":{"year":2022},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"de"}
+cash_by_months=usp_cash_by_months,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"de"}
 translations=translations,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"s02","LANGUAGE_NAME":"de"},"ListObjectName":"translations","UseTranslatedName":true,"WorkbookLanguage":"de"}', NULL);
 INSERT INTO workbooks (NAME, TEMPLATE, DEFINITION, TABLE_SCHEMA) VALUES ('Sample 02 - Advanced Features - User3 (Translation, Italian).xlsx','https://www.savetodb.com/downloads/v10/sample02-user3-it.xlsx','code_cashbook=code_cashbook,(Default),False,$B$3,,{"Parameters":{"account_id":1,"item_id":null,"company_id":null,"start_date":null,"end_date":null,"checked":null},"ListObjectName":"code_cashbook","UseTranslatedName":true,"WorkbookLanguage":"it"}
-cash_by_months=usp_cash_by_months,(Default),False,$B$3,,{"Parameters":{"year":2022},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"it"}
+cash_by_months=usp_cash_by_months,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"it"}
 translations=translations,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"s02","LANGUAGE_NAME":"it"},"ListObjectName":"translations","UseTranslatedName":true,"WorkbookLanguage":"it"}', NULL);
 INSERT INTO workbooks (NAME, TEMPLATE, DEFINITION, TABLE_SCHEMA) VALUES ('Sample 02 - Advanced Features - User3 (Translation, Japanese).xlsx','https://www.savetodb.com/downloads/v10/sample02-user3-ja.xlsx','code_cashbook=code_cashbook,(Default),False,$B$3,,{"Parameters":{"account_id":1,"item_id":null,"company_id":null,"start_date":null,"end_date":null,"checked":null},"ListObjectName":"code_cashbook","UseTranslatedName":true,"WorkbookLanguage":"ja"}
-cash_by_months=usp_cash_by_months,(Default),False,$B$3,,{"Parameters":{"year":2022},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"ja"}
+cash_by_months=usp_cash_by_months,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"ja"}
 translations=translations,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"s02","LANGUAGE_NAME":"ja"},"ListObjectName":"translations","UseTranslatedName":true,"WorkbookLanguage":"ja"}', NULL);
 INSERT INTO workbooks (NAME, TEMPLATE, DEFINITION, TABLE_SCHEMA) VALUES ('Sample 02 - Advanced Features - User3 (Translation, Korean).xlsx','https://www.savetodb.com/downloads/v10/sample02-user3-ko.xlsx','code_cashbook=code_cashbook,(Default),False,$B$3,,{"Parameters":{"account_id":1,"item_id":null,"company_id":null,"start_date":null,"end_date":null,"checked":null},"ListObjectName":"code_cashbook","UseTranslatedName":true,"WorkbookLanguage":"ko"}
-cash_by_months=usp_cash_by_months,(Default),False,$B$3,,{"Parameters":{"year":2022},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"ko"}
+cash_by_months=usp_cash_by_months,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"ko"}
 translations=translations,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"s02","LANGUAGE_NAME":"ko"},"ListObjectName":"translations","UseTranslatedName":true,"WorkbookLanguage":"ko"}', NULL);
 INSERT INTO workbooks (NAME, TEMPLATE, DEFINITION, TABLE_SCHEMA) VALUES ('Sample 02 - Advanced Features - User3 (Translation, Portuguese).xlsx','https://www.savetodb.com/downloads/v10/sample02-user3-pt.xlsx','code_cashbook=code_cashbook,(Default),False,$B$3,,{"Parameters":{"account_id":1,"item_id":null,"company_id":null,"start_date":null,"end_date":null,"checked":null},"ListObjectName":"code_cashbook","UseTranslatedName":true,"WorkbookLanguage":"pt"}
-cash_by_months=usp_cash_by_months,(Default),False,$B$3,,{"Parameters":{"year":2022},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"pt"}
+cash_by_months=usp_cash_by_months,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"pt"}
 translations=translations,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"s02","LANGUAGE_NAME":"pt"},"ListObjectName":"translations","UseTranslatedName":true,"WorkbookLanguage":"pt"}', NULL);
 INSERT INTO workbooks (NAME, TEMPLATE, DEFINITION, TABLE_SCHEMA) VALUES ('Sample 02 - Advanced Features - User3 (Translation, Russian).xlsx','https://www.savetodb.com/downloads/v10/sample02-user3-ru.xlsx','code_cashbook=code_cashbook,(Default),False,$B$3,,{"Parameters":{"account_id":1,"item_id":null,"company_id":null,"start_date":null,"end_date":null,"checked":null},"ListObjectName":"code_cashbook","UseTranslatedName":true,"WorkbookLanguage":"ru"}
-cash_by_months=usp_cash_by_months,(Default),False,$B$3,,{"Parameters":{"year":2022},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"ru"}
+cash_by_months=usp_cash_by_months,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"ru"}
 translations=translations,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"s02","LANGUAGE_NAME":"ru"},"ListObjectName":"translations","UseTranslatedName":true,"WorkbookLanguage":"ru"}', NULL);
 INSERT INTO workbooks (NAME, TEMPLATE, DEFINITION, TABLE_SCHEMA) VALUES ('Sample 02 - Advanced Features - User3 (Translation, Spanish).xlsx','https://www.savetodb.com/downloads/v10/sample02-user3-es.xlsx','code_cashbook=code_cashbook,(Default),False,$B$3,,{"Parameters":{"account_id":1,"item_id":null,"company_id":null,"start_date":null,"end_date":null,"checked":null},"ListObjectName":"code_cashbook","UseTranslatedName":true,"WorkbookLanguage":"es"}
-cash_by_months=usp_cash_by_months,(Default),False,$B$3,,{"Parameters":{"year":2022},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"es"}
+cash_by_months=usp_cash_by_months,(Default),False,$B$3,,{"Parameters":{"year":2023},"ListObjectName":"cash_by_months","UseTranslatedName":true,"WorkbookLanguage":"es"}
 translations=translations,(Default),False,$B$3,,{"Parameters":{"TABLE_SCHEMA":"s02","LANGUAGE_NAME":"es"},"ListObjectName":"translations","UseTranslatedName":true,"WorkbookLanguage":"es"}', NULL);
 
 -- print Application installed
